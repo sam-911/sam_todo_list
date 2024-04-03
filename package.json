@@ -1,14 +1,15 @@
 {
-  "name": "todo_list",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "sam_todo_list",
+  "version": "1.0.1",
+  "description": "A Simple Todo List with TypeScript, Node.js, and Inquirer",
+  "main": "todo_list.js",
   "type": "module",
+  "bin": "todo_list.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
     "@types/node": "^20.12.2"

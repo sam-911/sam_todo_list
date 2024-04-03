@@ -1,4 +1,4 @@
-#! usr/bin/env node 
+#! /usr/bin/env node 
 import inquirer from "inquirer";
 let todo_list = ["Keyboard", "Mouse", "Joystick"];
 async function createTodoList(todo_list) {
